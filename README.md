@@ -1,1 +1,1 @@
-# React Native Nintendo controller
+# React Native Game controller

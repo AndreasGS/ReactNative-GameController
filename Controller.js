@@ -9,10 +9,10 @@ import {
 } from 'react-native';
 import PropTypes from 'prop-types';
 
+const KONAMI_CODE = ['UP', 'UP', 'DOWN', 'DOWN', 'LEFT', 'RIGHT', 'LEFT', 'RIGHT', 'B', 'A', 'START'];
+
 function isKonamiCode(code) {
-  return JSON.stringify(code) === JSON.stringify(
-    ['UP', 'UP', 'DOWN', 'DOWN', 'LEFT', 'RIGHT', 'LEFT', 'RIGHT', 'A', 'B', 'START']
-  );
+  return JSON.stringify(code) === JSON.stringify(KONAMI_CODE);
 }
 
 class Controller extends Component {
@@ -194,7 +194,7 @@ class Controller extends Component {
                             fontSize: 20,
                           }}
                         >
-                          Nintendo
+                          React Native
                         </Text>
                       </View>
                     </View>
