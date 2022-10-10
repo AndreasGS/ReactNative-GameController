@@ -151,8 +151,6 @@ export const Controller: FC<{
                             height: 45,
                             borderRadius: 45,
                             backgroundColor: "red",
-                            justifyContent: "center",
-                            alignItems: "center",
                           }}
                         />
                         <Text
@@ -187,8 +185,6 @@ export const Controller: FC<{
                             height: 45,
                             borderRadius: 45,
                             backgroundColor: "red",
-                            justifyContent: "center",
-                            alignItems: "center",
                           }}
                         />
                         <Text
@@ -222,7 +218,7 @@ export const Controller: FC<{
                           fontSize: 20,
                         }}
                       >
-                        Carbonator
+                        React Native
                       </Text>
                     </View>
                   </View>
