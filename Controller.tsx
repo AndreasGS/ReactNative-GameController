@@ -1,4 +1,4 @@
-import React, { FC, useState } from "react";
+import React, { FC, useState, useEffect, useRef } from "react";
 import {
   Alert,
   Modal,
@@ -465,12 +465,4 @@ function useInterval(callback: () => void, delay: number | null): void {
     }
     return undefined;
   }, [delay]);
-}
-
-function useRef(arg0: () => void) {
-  throw new Error("Function not implemented.");
-}
-
-function useEffect(arg0: () => void, arg1: (() => void)[]) {
-  throw new Error("Function not implemented.");
 }
